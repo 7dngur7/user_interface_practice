@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <Button
+        android:id="@+id/anr_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ANR" />
+
+    <Button
+        android:id="@+id/worker_thread_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Worker Thread" />
+
+    <Button
+        android:id="@+id/handler_1_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Handler (post())" />
+
+    <Button
+        android:id="@+id/handler_2_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Handler (sendMessage())" />
+
+    <Button
+        android:id="@+id/unbounded_service_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Unbounded Service" />
+
+    <Button
+        android:id="@+id/bounded_service_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bounded Service" />
+
+    <Button
+        android:id="@+id/callbackable_bounded_service_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Callbackable Bounded Service" />
+
+</LinearLayout>

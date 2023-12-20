@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/result_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="default text" />
+
+    <Button
+        android:id="@+id/to_dialog_activity_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="to dialog activity" />
+
+    <Button
+        android:id="@+id/to_second_activity_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="to second activity" />
+
+    <Button
+        android:id="@+id/to_second_activity_with_extra_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="to second activity with extra" />
+
+    <Button
+        android:id="@+id/to_second_activity_for_result_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="to second activity for result" />
+
+    <EditText
+        android:id="@+id/input_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:hint="Please input here." />
+
+</LinearLayout>

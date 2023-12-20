@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu1"
+        android:enabled="true"
+        android:title="1"/>
+    <item
+        android:id="@+id/menu2"
+        android:enabled="true"
+        android:title="2"/>
+    <item android:title="3"
+        android:id="@+id/menu3"
+        android:enabled="true"/>
+
+    <item android:title="4"
+        android:id="@+id/menu4"
+        android:enabled="true"/>
+
+</menu>
